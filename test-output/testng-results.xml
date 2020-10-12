@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23533" started-at="2020-10-11T03:09:13Z" finished-at="2020-10-11T03:09:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23533" started-at="2020-10-11T03:09:13Z" finished-at="2020-10-11T03:09:37Z">
+      <class name="com.caci.hrms.testcases.PimAddEmployeeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.caci.hrms.testcases.PimAddEmployeeTest@5d5eef3d]" name="setup" is-config="true" duration-ms="8737" started-at="2020-10-10T23:09:13Z" finished-at="2020-10-10T23:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login_TC001()[pri:0, instance:com.caci.hrms.testcases.PimAddEmployeeTest@5d5eef3d]" name="Login_TC001" duration-ms="14047" started-at="2020-10-10T23:09:22Z" finished-at="2020-10-10T23:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.caci.hrms.testcases.PimAddEmployeeTest@5d5eef3d]" name="tearDown" is-config="true" duration-ms="725" started-at="2020-10-10T23:09:36Z" finished-at="2020-10-10T23:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.caci.hrms.testcases.PimAddEmployeeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

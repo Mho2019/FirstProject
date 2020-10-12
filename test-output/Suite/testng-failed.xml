@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.caci.hrms.testcases.LoginTest">
+        <methods>
+          <include name="NoFieldValue_TC003"/>
+          <include name="InvalidPassword_TC004"/>
+          <include name="InvalidUserID_TC002"/>
+          <include name="logoinPageTitle_TC001"/>
+        </methods>
+      </class> <!-- com.caci.hrms.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
