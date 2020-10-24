@@ -1,25 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23533" started-at="2020-10-11T03:09:13Z" finished-at="2020-10-11T03:09:37Z">
+  <suite name="Default suite" duration-ms="97106" started-at="2020-10-22T00:39:30Z" finished-at="2020-10-22T00:41:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23533" started-at="2020-10-11T03:09:13Z" finished-at="2020-10-11T03:09:37Z">
-      <class name="com.caci.hrms.testcases.PimAddEmployeeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.caci.hrms.testcases.PimAddEmployeeTest@5d5eef3d]" name="setup" is-config="true" duration-ms="8737" started-at="2020-10-10T23:09:13Z" finished-at="2020-10-10T23:09:22Z">
+    <test name="Default test" duration-ms="97106" started-at="2020-10-22T00:39:30Z" finished-at="2020-10-22T00:41:07Z">
+      <class name="com.caci.hrms.testcases.addUserTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="setup" is-config="true" duration-ms="7225" started-at="2020-10-21T20:39:31Z" finished-at="2020-10-21T20:39:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login_TC001()[pri:0, instance:com.caci.hrms.testcases.PimAddEmployeeTest@5d5eef3d]" name="Login_TC001" duration-ms="14047" started-at="2020-10-10T23:09:22Z" finished-at="2020-10-10T23:09:36Z">
+        <test-method status="PASS" signature="addUser_TC001(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="addUser_TC001" duration-ms="8755" started-at="2020-10-21T20:39:38Z" data-provider="TestData" finished-at="2020-10-21T20:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Peter Mac Anderson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[StrongUser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[StrongPassword1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPassword1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_TC001 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.caci.hrms.testcases.PimAddEmployeeTest@5d5eef3d]" name="tearDown" is-config="true" duration-ms="725" started-at="2020-10-10T23:09:36Z" finished-at="2020-10-10T23:09:37Z">
+        </test-method> <!-- addUser_TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="tearDown" is-config="true" duration-ms="682" started-at="2020-10-21T20:39:47Z" finished-at="2020-10-21T20:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.caci.hrms.testcases.PimAddEmployeeTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="setup" is-config="true" duration-ms="6231" started-at="2020-10-21T20:39:48Z" finished-at="2020-10-21T20:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addUser_TC001(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="addUser_TC001" duration-ms="8726" started-at="2020-10-21T20:39:54Z" data-provider="TestData" finished-at="2020-10-21T20:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linda Jane Anderson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[StrongGirl2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[StrongPassword2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPassword2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser_TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="tearDown" is-config="true" duration-ms="683" started-at="2020-10-21T20:40:03Z" finished-at="2020-10-21T20:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="setup" is-config="true" duration-ms="6251" started-at="2020-10-21T20:40:03Z" finished-at="2020-10-21T20:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addUser_TC001(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="addUser_TC001" duration-ms="8684" started-at="2020-10-21T20:40:10Z" data-provider="TestData" finished-at="2020-10-21T20:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lisa Andrews]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[StrongUser3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[StrongPassword3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPassword3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser_TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="tearDown" is-config="true" duration-ms="673" started-at="2020-10-21T20:40:18Z" finished-at="2020-10-21T20:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="setup" is-config="true" duration-ms="6199" started-at="2020-10-21T20:40:19Z" finished-at="2020-10-21T20:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addUser_TC001(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="addUser_TC001" duration-ms="8977" started-at="2020-10-21T20:40:25Z" data-provider="TestData" finished-at="2020-10-21T20:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cecil Bonaparte]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[StrongUser4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[StrongPassword4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPassword4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser_TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="tearDown" is-config="true" duration-ms="696" started-at="2020-10-21T20:40:34Z" finished-at="2020-10-21T20:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="setup" is-config="true" duration-ms="6351" started-at="2020-10-21T20:40:35Z" finished-at="2020-10-21T20:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addUser_TC001(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="addUser_TC001" duration-ms="9453" started-at="2020-10-21T20:40:41Z" data-provider="TestData" finished-at="2020-10-21T20:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Charlie Carter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[StrongUser5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[StrongPassword5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPassword5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser_TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="tearDown" is-config="true" duration-ms="707" started-at="2020-10-21T20:40:51Z" finished-at="2020-10-21T20:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="setup" is-config="true" duration-ms="6284" started-at="2020-10-21T20:40:51Z" finished-at="2020-10-21T20:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addUser_TC001(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="addUser_TC001" duration-ms="9074" started-at="2020-10-21T20:40:58Z" data-provider="TestData" finished-at="2020-10-21T20:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dominic Chase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[StrongUser6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[StrongPassword6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPassword6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser_TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.caci.hrms.testcases.addUserTest@4520ebad]" name="tearDown" is-config="true" duration-ms="696" started-at="2020-10-21T20:41:07Z" finished-at="2020-10-21T20:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.caci.hrms.testcases.addUserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

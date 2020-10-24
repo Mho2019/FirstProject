@@ -3,11 +3,14 @@ package com.caci.hrms.base;
 
 import java.util.concurrent.TimeUnit;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.caci.hrms.utils.ConfigReader;
@@ -27,7 +30,7 @@ public class BaseClass {
 //switch is "java" used when we have multiple iteration and we can have multiple cases  
 	
 	
-	@BeforeMethod()
+	@BeforeMethod
 	public static  WebDriver setup() {
 		ConfigReader.readProperties(Constants.CONFIGURATION_FILE_PATH);
 		switch(ConfigReader.getProperty("browserName")) {
@@ -59,7 +62,7 @@ public class BaseClass {
 	       	        
 	}
 	
-  @AfterMethod()
+  @AfterMethod
 	public static void tearDown() {
 	if (driver !=null) {
 	driver.quit();

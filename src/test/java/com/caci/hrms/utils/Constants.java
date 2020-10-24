@@ -12,6 +12,8 @@ public static final int IMPLICIT_WAIT_TIME= 60;
 
 public static final String CONFIGURATION_FILE_PATH=System.getProperty("user.dir")+"\\src\\test\\resources\\Configs\\Configuration.properties";
 
+public static final String EXCEL_FILE_PATH=System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\Testdata.xlsx";
+
 }
 
 
